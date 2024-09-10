@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   const openInstagram = () => {
-    window.open('https://github.com/satendra03', '_blank', 'noopener,noreferrer');
+    window.open('https://x.com/wizardofhahz', '_blank', 'noopener,noreferrer');
   };
   return (
-    <div className="footer min-h-32 w-full flex text-muted-foreground items-center justify-center p-4">
+    <div className="flex items-center justify-center w-full p-4 footer min-h-32 text-muted-foreground">
       <h1>
-        <Link to='https://github.com/satendra03' target='_blank' rel='noreferrer'>
-          <Button variant="link" onClick={openInstagram}> <p className='sm:font-semibold sm:text-lg text-muted-foreground border-b-2'>Made by Satendra Kumar Parteti </p></Button>
+        <Link to='https://x.com/wizardofhahz' target='_blank' rel='noreferrer'>
+          <Button variant="link" onClick={openInstagram}> <p className='border-b-2 sm:font-semibold sm:text-lg text-muted-foreground'>Made by the Wizard of HAHZ </p></Button>
         </Link>
       </h1>
     </div>
