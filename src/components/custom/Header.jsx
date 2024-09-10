@@ -32,7 +32,7 @@ function Header() {
             <img src="/logo.png" alt="" />
           </div>
           <h1 className="text-lg md:text-3xl font-bold">
-          JourneyJolt
+          Arvrtise Travel
           </h1>
         </div>
       {isAuthenticated ? 

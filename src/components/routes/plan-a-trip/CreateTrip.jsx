@@ -129,20 +129,20 @@ function CreateTrip() {
 
   return (
     <div className="mt-10">
-      <div className="text text-center md:text-left">
-        <h2 className="text-2xl md:text-4xl font-bold">
+      <div className="text-center text md:text-left">
+        <h2 className="text-2xl font-bold md:text-4xl">
           Share Your Travel Preferences 🌟🚀
         </h2>
-        <p className="text-sm text-gray-600 font-medium mt-3">
-          Help us craft your perfect adventure with just a few details.
-          JourneyJolt will generate a tailored itinerary based on your
+        <p className="mt-3 text-sm font-medium text-gray-600">
+          Help us create your perfect adventure with just a few details.
+          Arvrtise Travel will generate a tailored itinerary based on your
           preferences.
         </p>
       </div>
 
-      <div className="form mt-10 flex flex-col gap-10 md:gap-20 ">
+      <div className="flex flex-col gap-10 mt-10 form md:gap-20 ">
         <div className="place">
-          <h2 className="font-semibold text-md md:text-lg mb-3 text-center md:text-left">
+          <h2 className="mb-3 font-semibold text-center text-md md:text-lg md:text-left">
             Where do you want to Explore? 🏖️
           </h2>
           <GooglePlacesAutocomplete
@@ -158,7 +158,7 @@ function CreateTrip() {
         </div>
 
         <div className="day">
-          <h2 className="font-semibold text-md md:text-lg mb-3 text-center md:text-left">
+          <h2 className="mb-3 font-semibold text-center text-md md:text-lg md:text-left">
             How long is your Trip? 🕜
           </h2>
           <Input
@@ -169,10 +169,10 @@ function CreateTrip() {
         </div>
 
         <div className="budget">
-          <h2 className="font-semibold text-md md:text-lg mb-3 text-center md:text-left">
+          <h2 className="mb-3 font-semibold text-center text-md md:text-lg md:text-left">
             What is your Budget? 💳
           </h2>
-          <div className="options grid grid-cols-1 gap-5 md:grid-cols-3 cursor-pointer">
+          <div className="grid grid-cols-1 gap-5 cursor-pointer options md:grid-cols-3">
             {SelectBudgetOptions.map((item) => {
               return (
                 <div
@@ -185,7 +185,7 @@ function CreateTrip() {
                   <h3 className="font-bold text-[15px] md:font-[18px]">
                     {item.icon} {item.title} :
                   </h3>
-                  <p className="text-gray-500 font-medium">{item.desc}</p>
+                  <p className="font-medium text-gray-500">{item.desc}</p>
                 </div>
               );
             })}
@@ -193,10 +193,10 @@ function CreateTrip() {
         </div>
 
         <div className="people">
-          <h2 className="font-semibold text-md md:text-lg mb-3 text-center md:text-left">
+          <h2 className="mb-3 font-semibold text-center text-md md:text-lg md:text-left">
             Who are you traveling with? 🚗
           </h2>
-          <div className="options grid grid-cols-1 gap-5 md:grid-cols-3 cursor-pointer">
+          <div className="grid grid-cols-1 gap-5 cursor-pointer options md:grid-cols-3">
             {SelectNoOfPersons.map((item) => {
               return (
                 <div
@@ -212,8 +212,8 @@ function CreateTrip() {
                   <h3 className="font-bold text-[15px] md:font-[18px]">
                     {item.icon} {item.title} :
                   </h3>
-                  <p className="text-gray-500 font-medium">{item.desc}</p>
-                  <p className="text-gray-500 text-sm font-normal">{item.no}</p>
+                  <p className="font-medium text-gray-500">{item.desc}</p>
+                  <p className="text-sm font-normal text-gray-500">{item.no}</p>
                 </div>
               );
             })}
@@ -221,10 +221,10 @@ function CreateTrip() {
         </div>
       </div>
 
-      <div className="create-trip-btn w-full flex items-center justify-center h-32">
+      <div className="flex items-center justify-center w-full h-32 create-trip-btn">
         <Button disabled={isLoading} onClick={generateTrip}>
           {isLoading ? (
-            <AiOutlineLoading3Quarters className="h-6 w-6 animate-spin" />
+            <AiOutlineLoading3Quarters className="w-6 h-6 animate-spin" />
           ) : (
             "Plan A Trip"
           )}
@@ -245,8 +245,8 @@ function CreateTrip() {
               <span className="flex gap-2">
                 <span>
                   {user
-                    ? "Logged In Securely to JourneyJolt with Google Authentication"
-                    : "Sign In to JourneyJolt with Google Authentication Securely"}
+                    ? "Logged In Securely to Arvrtise Travel with Google Authentication"
+                    : "Sign In to Arvrtise Travel with Google Authentication Securely"}
                 </span>
               </span>
               {user ? (
@@ -254,9 +254,9 @@ function CreateTrip() {
               ) : (
                 <Button
                   onClick={SignIn}
-                  className="w-full mt-5 flex gap-2 items-center justify-center"
+                  className="flex items-center justify-center w-full gap-2 mt-5"
                 >
-                  Sign In with <FcGoogle className="h-5 w-5" />
+                  Sign In with <FcGoogle className="w-5 h-5" />
                 </Button>
               )}
             </DialogDescription>

@@ -1,22 +1,22 @@
-# JourneyJolt: AI-Based Trip Planner
+# Arvrtise Travel: AI-Based Trip Planner
 
-<!-- ![JourneyJolt Live](https://example.com/journeyjolt-logo.png) -->
+<!-- ![Arvrtise Travel Live](https://example.com/Arvrtise Travel-logo.png) -->
 
 ## Overview
 
-JourneyJolt is an innovative AI-driven trip planner that aims to transform your travel experiences. By harnessing the power of advanced artificial intelligence, JourneyJolt generates personalized itineraries that cater to your unique preferences and interests, ensuring that every journey is memorable.
+Arvrtise Travel is an innovative AI-driven trip planner that aims to transform your travel experiences. By harnessing the power of advanced artificial intelligence, Arvrtise Travel generates personalized itineraries that cater to your unique preferences and interests, ensuring that every journey is memorable.
 
 ## Key Features
 
 - **Personalized Itineraries**: Our AI crafts bespoke travel plans that align with your specific interests, ensuring a unique and tailored experience.
 - **Budget Optimization**: Whether you’re on a tight budget or looking to splurge, our recommendations fit within your specified financial constraints.
-- **AI-Driven Recommendations**: JourneyJolt utilizes machine learning to provide the best activities, destinations, and experiences based on your input.
+- **AI-Driven Recommendations**: Arvrtise Travel utilizes machine learning to provide the best activities, destinations, and experiences based on your input.
 - **Real-Time Updates**: Stay informed with the latest travel conditions, local events, and any changes that might affect your plans.
 - **User-Friendly Interface**: Our intuitive design allows for easy navigation and seamless itinerary management.
 
 ## How It Works
 
-1. **Input Preferences**: Enter your travel dates, interests, budget, and other preferences into JourneyJolt.
+1. **Input Preferences**: Enter your travel dates, interests, budget, and other preferences into Arvrtise Travel.
 2. **AI Recommendation Engine**: Our AI analyzes your inputs to generate a customized itinerary.
 3. **Review and Customize**: Review the suggested itinerary and make any desired adjustments to better suit your needs.
 4. **Booking Integration**: Effortlessly book accommodations, activities, and more through integrated booking platforms.
@@ -30,7 +30,7 @@ JourneyJolt is an innovative AI-driven trip planner that aims to transform your 
 
 ## Getting Started
 
-To get started with JourneyJolt, follow these steps:
+To get started with Arvrtise Travel, follow these steps:
 
 1. Visit our [website](https://trip-planner-by-satendra.vercel.app/).
 2. Sign up to create your personalized travel profile.
@@ -57,4 +57,4 @@ Special thanks to all our beta testers and early adopters for their invaluable f
 
 ---
 
-JourneyJolt - Turning your travel dreams into reality with the power of AI.
+Arvrtise Travel - Turning your travel dreams into reality with the power of AI.

@@ -10,7 +10,7 @@ function Hero() {
       <div className="text px-10 md:px-40 flex flex-col items-center justify-center gap-4">
         <div className="heading">
           <h1 className="font-extrabold text-3xl md:text-[50px] leading-tight text-orange-500">
-            Embark on Electrifying Adventures with JourneyJolt
+            Embark on Electrifying Adventures with Arvrtise Travel
           </h1>
           <h3 className="font-extrabold opacity-70 text-xl md:text-[40px] leading-tight">
             Tailored Itineraries for Every Explorer
