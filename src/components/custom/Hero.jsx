@@ -6,17 +6,17 @@ import { LogInContext } from "@/Context/LogInContext/Login";
 function Hero() {
   const { isAuthenticated } = useContext(LogInContext);
   return (
-    <div className="flex items-center flex-col text-center justify-center h-auto">
-      <div className="text px-10 md:px-40 flex flex-col items-center justify-center gap-4">
+    <div className="flex flex-col items-center justify-center h-auto text-center">
+      <div className="flex flex-col items-center justify-center gap-4 px-10 text md:px-40">
         <div className="heading">
           <h1 className="font-extrabold text-3xl md:text-[50px] leading-tight text-orange-500">
-            Embark on Electrifying Adventures with Arvrtise Travel
+            Arvrtise Travel
           </h1>
           <h3 className="font-extrabold opacity-70 text-xl md:text-[40px] leading-tight">
-            Tailored Itineraries for Every Explorer
+            Create Itineraries Based On Your Budget
           </h3>
         </div>
-        <div className="desc mt-5">
+        <div className="mt-5 desc">
           <h5 className="text-[15px] md:text-2xl font-semibold opacity-40">
             Your trusted trip planner and adventure guide sparking thrilling
             journeys with personalized travel plans designed to match your
